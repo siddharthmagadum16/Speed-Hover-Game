@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Hover Game</title>
+    <link rel="stylesheet" href="animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Luckiest+Guy&family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">1
+</head>
+<body>
+    <h1 class="space">SPEED HOVER GAME</h1>
+    <form action="script2.js" method="get">
+    <div class="rad1">
+        <h2 class="limit animated bounceIn">Set Time Limit:</h2> <br>
+        <h3 class="rad"> <input type="radio" id="r1" name="gettime" value="5000" >5 seconds </h3> 
+        <h3 class="rad"> <input type="radio" id="r2" name="gettime" value="10000">10 seconds</h3> 
+        <h3 class="rad"> <input type="radio" id="r3" name="gettime" value="15000">15 seconds</h3> 
+        <h3 class="rad"> <input type="radio" id="r4" name="gettime" value="30000">30 seconds</h3> 
+        <h3 class="rad"> <input type="radio" id="r5" name="gettime" value="45000">45 seconds</h3> 
+        <h3 class="rad"> <input type="radio" id="r6" name="gettime" value="60000">60 seconds</h3> 
+    </div>
+    </form>
+    
+    <button class="button3" type="button" id="btn1" onclick="f1()">Set Time</button><br>
+    <button class="hover btn btn-outline-primary btn-lg ">Hower on this</button><br>
+    <button class="button2 btn btn-outline-success">Reset</button><br>
+    
+    <h2 class="hover1"></h2>
+    <h2 class="TIME"></h2>
+    <!-- <h2 class="time2"></h2> -->
+    <h3 class="end"></h3>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script2.js"></script>
+</body>
+</html>

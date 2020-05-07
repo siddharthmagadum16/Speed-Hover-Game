@@ -1,0 +1,73 @@
+html {
+    /* border: 0rem; */
+    height: 100%;
+    width:  100%;
+}
+body{
+    background: url("https://cdn.wallpapersafari.com/36/45/xS80DA.png");
+    /* height: fit-content; */
+    /* width: fit-content; */
+    background-size: cover;
+}
+.space {
+    font-family: 'Luckiest Guy', cursive;
+    font-style: italic;
+    text-align: center;
+    /* padding: 0 40px; */
+    height: auto;
+    background-color:  yellow;
+    transition: all 0.5 ease-in;
+    /* box-decoration-break: clone; */
+    box-shadow: 20px 20px 20px yellowgreen  ;
+    color: rgb(59, 50, 50);    
+}
+
+.limit {
+    color: aqua;
+    margin-top: 4rem;
+}
+.rad {
+    display: inline-flex;
+    color: rgb(74, 85, 247);
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    border-spacing: 2rem;
+}
+.button3 {
+    margin-left: 50%;
+    padding: 1% 2%;
+    color: rgb(234, 0, 255);
+    background-color: rgb(25, 236, 201);
+    border-radius: 100rem;
+    font-style: oblique;
+    font-weight: 900;
+}
+.button3:hover {
+    background-color: rgb(102, 248, 82);
+}
+.hover {
+    margin-left: 50%;
+    margin-top: 4rem;
+    box-shadow: blue;
+    padding: 1% 2%;
+    color: rgb(43, 255, 0); 
+    /* background-color: brown; */
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hover:hover {
+    color: brown;
+    
+}
+.button2 {
+    margin-left: 50%;
+    margin-top: 5rem;
+}
+.hover1 {
+    font-size: xx-large;
+    padding: 1rem 3rem;
+    color: greenyellow;
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    letter-spacing: .4rem;
+}
